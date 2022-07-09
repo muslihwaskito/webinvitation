@@ -13,10 +13,11 @@
 
 		}
 	</style>
-	<title>Gangsar & Indah -</title>
+	<title>Gangsar & Indah</title>
 	<meta name="description" content="Invitation Gangsar & Indah">
 	<meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large">
 	<link rel="canonical" href="https://gangsarindah.com/">
+	<meta property="og:site_name" content="Gangsar & Indah">
 	<meta property="og:locale" content="en_US">
 	<meta property="og:type" content="article">
 	<meta property="og:title" content="Invitation Gangsar & Indah">
@@ -24,8 +25,7 @@
 	<meta property="og:url" content="https://gangsarindah.com/">
 	<meta property="article:section" content="Uncategorized">
 	<meta property="og:updated_time" content="2022-06-20T09:22:31+07:00">
-	<meta property="og:image" content="media/3-min.jpg">
-	<meta property="og:image:url" content="media/3-min.jpg">
+	<meta property="og:image"  itemprop="image" content="media/3-min.jpg">
 	<meta property="og:image:width" content="683">
 	<meta property="og:image:height" content="1024">
 	<meta property="og:image:alt" content="Gangsar & Indah">
