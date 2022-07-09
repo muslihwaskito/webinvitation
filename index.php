@@ -25,7 +25,7 @@
 	<meta property="og:url" content="https://gangsarindah.com/">
 	<meta property="article:section" content="Uncategorized">
 	<meta property="og:updated_time" content="2022-06-20T09:22:31+07:00">
-	<meta property="og:image"  itemprop="image" content="media/3-min.jpg">
+	<meta property="og:image" content="media/cover-image.jpg">
 	<meta property="og:image:width" content="683">
 	<meta property="og:image:height" content="1024">
 	<meta property="og:image:alt" content="Gangsar & Indah">
@@ -36,7 +36,7 @@
 	<meta name="twitter:title" content="Invitation Gangsar & Indah">
 	<meta name="twitter:description" content="Invitation Gangsar & Indah">
 	<meta name="twitter:image"
-		content="media/3-min.jpg">
+		content="media/cover-image.jpg">
 	<meta name="twitter:label1" content="Written by">
 	<meta name="twitter:data1" content="Invitation Gangsar & Indah">
 	<meta name="twitter:label2" content="Time to read">
