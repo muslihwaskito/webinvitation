@@ -11,9 +11,6 @@
 
 		}
 	</style>
-
-
-	<!-- Search Engine Optimization by Rank Math - https://s.rankmath.com/home -->
 	<title>Gangsar & Indah -</title>
 	<meta name="description" content="Invitation Gangsar & Indah">
 	<meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large">
@@ -25,8 +22,8 @@
 	<meta property="og:url" content="https://gangsarindah.com/">
 	<meta property="article:section" content="Uncategorized">
 	<meta property="og:updated_time" content="2022-06-20T09:22:31+07:00">
-	<meta property="og:image" content="images/Amar-April-6-683x1024.jpg">
-	<meta property="og:image:secure_url" content="images/Amar-April-6-683x1024.jpg">
+	<meta property="og:image" content="media/3-min.jpg">
+	<meta property="og:image:url" content="media/3-min.jpg">
 	<meta property="og:image:width" content="683">
 	<meta property="og:image:height" content="1024">
 	<meta property="og:image:alt" content="Gangsar & Indah">
@@ -37,7 +34,7 @@
 	<meta name="twitter:title" content="Invitation Gangsar & Indah">
 	<meta name="twitter:description" content="Invitation Gangsar & Indah">
 	<meta name="twitter:image"
-		content="https://websiteinvitation.com/wp-content/uploads/2022/01/Amar-April-6-683x1024.jpg">
+		content="media/3-min.jpg">
 	<meta name="twitter:label1" content="Written by">
 	<meta name="twitter:data1" content="Invitation Gangsar & Indah">
 	<meta name="twitter:label2" content="Time to read">
