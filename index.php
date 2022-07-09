@@ -838,7 +838,7 @@
 								<div class="elementor-widget-container">
 
 									<div class="modalx"
-										data-sampul="media/4-min.jpg" style="background-position: top;">
+										data-sampul="media/3-min.jpg" style="background-position: top;">
 
 										<div class="overlayy"></div>
 										<div class="content-modalx">
