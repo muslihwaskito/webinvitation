@@ -14,32 +14,32 @@
 
 
 	<!-- Search Engine Optimization by Rank Math - https://s.rankmath.com/home -->
-	<title>Tema Scroll 07 -</title>
-	<meta name="description" content="Undangan Website Digital">
+	<title>Gangsar & Indah -</title>
+	<meta name="description" content="Invitation Gangsar & Indah">
 	<meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large">
-	<link rel="canonical" href="https://websiteinvitation.com/tema-scroll-07/">
+	<link rel="canonical" href="https://gangsarindah.com/">
 	<meta property="og:locale" content="en_US">
 	<meta property="og:type" content="article">
-	<meta property="og:title" content="Website Invitation">
-	<meta property="og:description" content="20 02 2022">
-	<meta property="og:url" content="https://websiteinvitation.com/tema-scroll-07/">
+	<meta property="og:title" content="Invitation Gangsar & Indah">
+	<meta property="og:description" content="Invitation Gangsar & Indah">
+	<meta property="og:url" content="https://gangsarindah.com/">
 	<meta property="article:section" content="Uncategorized">
 	<meta property="og:updated_time" content="2022-06-20T09:22:31+07:00">
 	<meta property="og:image" content="images/Amar-April-6-683x1024.jpg">
 	<meta property="og:image:secure_url" content="images/Amar-April-6-683x1024.jpg">
 	<meta property="og:image:width" content="683">
 	<meta property="og:image:height" content="1024">
-	<meta property="og:image:alt" content="Tema Scroll 07">
+	<meta property="og:image:alt" content="Gangsar & Indah">
 	<meta property="og:image:type" content="image/jpeg">
 	<meta property="article:published_time" content="2022-03-22T11:07:40+07:00">
 	<meta property="article:modified_time" content="2022-06-20T09:22:31+07:00">
 	<meta name="twitter:card" content="summary_large_image">
-	<meta name="twitter:title" content="Website Invitation">
-	<meta name="twitter:description" content="20 02 2022">
+	<meta name="twitter:title" content="Invitation Gangsar & Indah">
+	<meta name="twitter:description" content="Invitation Gangsar & Indah">
 	<meta name="twitter:image"
 		content="https://websiteinvitation.com/wp-content/uploads/2022/01/Amar-April-6-683x1024.jpg">
 	<meta name="twitter:label1" content="Written by">
-	<meta name="twitter:data1" content="websiteinvitation">
+	<meta name="twitter:data1" content="Invitation Gangsar & Indah">
 	<meta name="twitter:label2" content="Time to read">
 	<meta name="twitter:data2" content="2 minutes">
 	<script type="application/ld+json" class="rank-math-schema">
@@ -852,7 +852,7 @@
 												</div>
 
 												<div class="wdp-dear">Dear :</div>
-												<div class="wdp-name"></div>
+												<div class="wdp-name"><?php echo !empty($_GET['to'])?str_replace('+', ' ', $_GET['to']):''; ?></div>
 												<div class="wdp-text">You&#039;re Invited.</div>
 												<div class="wdp-button-wrapper">
 													<button class="elementor-button">
