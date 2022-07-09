@@ -26,8 +26,8 @@
 	<meta property="article:section" content="Uncategorized">
 	<meta property="og:updated_time" content="2022-06-20T09:22:31+07:00">
 	<meta property="og:image" content="media/cover-image.jpg">
-	<meta property="og:image:width" content="683">
-	<meta property="og:image:height" content="1024">
+	<meta property="og:image:width" content="1024">
+	<meta property="og:image:height" content="683">
 	<meta property="og:image:alt" content="Gangsar & Indah">
 	<meta property="og:image:type" content="image/jpeg">
 	<meta property="article:published_time" content="2022-03-22T11:07:40+07:00">
