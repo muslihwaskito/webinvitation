@@ -1777,7 +1777,7 @@
 															href="media/1-min.jpg"
 															data-elementor-open-lightbox="yes"
 															data-elementor-lightbox-slideshow="all-0e28f6c"
-															data-elementor-lightbox-title="Amar &amp; April 2">
+															data-elementor-lightbox-title="Gangsar & Indah 1">
 															<div class="e-gallery-image elementor-gallery-item__image"
 																data-thumbnail="media/1-min.jpg"
 																data-width="1568" data-height="2352" alt></div>
@@ -1787,7 +1787,7 @@
 															href="media/2-min.jpg"
 															data-elementor-open-lightbox="yes"
 															data-elementor-lightbox-slideshow="all-0e28f6c"
-															data-elementor-lightbox-title="Amar &amp; April 6">
+															data-elementor-lightbox-title="Gangsar & Indah 2">
 															<div class="e-gallery-image elementor-gallery-item__image"
 																data-thumbnail="media/2-min.jpg"
 																data-width="1568" data-height="2352" alt></div>
@@ -1797,7 +1797,7 @@
 															href="media/3-min.jpg"
 															data-elementor-open-lightbox="yes"
 															data-elementor-lightbox-slideshow="all-0e28f6c"
-															data-elementor-lightbox-title="Amar &amp; April 1">
+															data-elementor-lightbox-title="Gangsar & Indah 3">
 															<div class="e-gallery-image elementor-gallery-item__image"
 																data-thumbnail="media/3-min.jpg"
 																data-width="1568" data-height="2352" alt></div>
@@ -1807,7 +1807,7 @@
 															href="media/5-min.jpg"
 															data-elementor-open-lightbox="yes"
 															data-elementor-lightbox-slideshow="all-0e28f6c"
-															data-elementor-lightbox-title="Amar &amp; April 5">
+															data-elementor-lightbox-title="Gangsar & Indah 4">
 															<div class="e-gallery-image elementor-gallery-item__image"
 																data-thumbnail="media/5-min.jpg"
 																data-width="1568" data-height="2352" alt></div>
@@ -1817,7 +1817,7 @@
 															href="media/6-min.jpg"
 															data-elementor-open-lightbox="yes"
 															data-elementor-lightbox-slideshow="all-0e28f6c"
-															data-elementor-lightbox-title="Amar &amp; April 3">
+															data-elementor-lightbox-title="Gangsar & Indah 5">
 															<div class="e-gallery-image elementor-gallery-item__image"
 																data-thumbnail="media/6-min.jpg"
 																data-width="1568" data-height="2352" alt></div>
@@ -1827,7 +1827,7 @@
 															href="media/7-min.jpg"
 															data-elementor-open-lightbox="yes"
 															data-elementor-lightbox-slideshow="all-0e28f6c"
-															data-elementor-lightbox-title="Amar &amp; April 4">
+															data-elementor-lightbox-title="Gangsar & Indah 6">
 															<div class="e-gallery-image elementor-gallery-item__image"
 																data-thumbnail="media/7-min.jpg"
 																data-width="1568" data-height="2352" alt></div>
@@ -1837,7 +1837,7 @@
 															href="media/10-min.jpg"
 															data-elementor-open-lightbox="yes"
 															data-elementor-lightbox-slideshow="all-0e28f6c"
-															data-elementor-lightbox-title="Amar &amp; April 4">
+															data-elementor-lightbox-title="Gangsar & Indah 7">
 															<div class="e-gallery-image elementor-gallery-item__image"
 																data-thumbnail="media/10-min.jpg"
 																data-width="1568" data-height="2352" alt></div>
@@ -1847,7 +1847,7 @@
 															href="media/11-min.jpg"
 															data-elementor-open-lightbox="yes"
 															data-elementor-lightbox-slideshow="all-0e28f6c"
-															data-elementor-lightbox-title="Amar &amp; April 4">
+															data-elementor-lightbox-title="Gangsar & Indah 8">
 															<div class="e-gallery-image elementor-gallery-item__image"
 																data-thumbnail="media/11-min.jpg"
 																data-width="1568" data-height="2352" alt></div>
@@ -1857,7 +1857,7 @@
 															href="media/12-min.jpg"
 															data-elementor-open-lightbox="yes"
 															data-elementor-lightbox-slideshow="all-0e28f6c"
-															data-elementor-lightbox-title="Amar &amp; April 4">
+															data-elementor-lightbox-title="Gangsar & Indah 9">
 															<div class="e-gallery-image elementor-gallery-item__image"
 																data-thumbnail="media/12-min.jpg"
 																data-width="1568" data-height="2352" alt></div>
@@ -1867,7 +1867,7 @@
 															href="media/14-min.jpg"
 															data-elementor-open-lightbox="yes"
 															data-elementor-lightbox-slideshow="all-0e28f6c"
-															data-elementor-lightbox-title="Amar &amp; April 4">
+															data-elementor-lightbox-title="Gangsar & Indah 10">
 															<div class="e-gallery-image elementor-gallery-item__image"
 																data-thumbnail="media/14-min.jpg"
 																data-width="1568" data-height="2352" alt></div>
@@ -1877,7 +1877,7 @@
 															href="media/18-min.jpg"
 															data-elementor-open-lightbox="yes"
 															data-elementor-lightbox-slideshow="all-0e28f6c"
-															data-elementor-lightbox-title="Amar &amp; April 4">
+															data-elementor-lightbox-title="Gangsar & Indah 11">
 															<div class="e-gallery-image elementor-gallery-item__image"
 																data-thumbnail="media/18-min.jpg"
 																data-width="1568" data-height="2352" alt></div>
@@ -1887,7 +1887,7 @@
 															href="media/19-min.jpg"
 															data-elementor-open-lightbox="yes"
 															data-elementor-lightbox-slideshow="all-0e28f6c"
-															data-elementor-lightbox-title="Amar &amp; April 4">
+															data-elementor-lightbox-title="Gangsar & Indah 12">
 															<div class="e-gallery-image elementor-gallery-item__image"
 																data-thumbnail="media/19-min.jpg"
 																data-width="1568" data-height="2352" alt></div>
@@ -1897,7 +1897,7 @@
 															href="media/21-min.jpg"
 															data-elementor-open-lightbox="yes"
 															data-elementor-lightbox-slideshow="all-0e28f6c"
-															data-elementor-lightbox-title="Amar &amp; April 4">
+															data-elementor-lightbox-title="Gangsar & Indah 13">
 															<div class="e-gallery-image elementor-gallery-item__image"
 																data-thumbnail="media/21-min.jpg"
 																data-width="1568" data-height="2352" alt></div>
@@ -1907,7 +1907,7 @@
 															href="media/8-min.jpg"
 															data-elementor-open-lightbox="yes"
 															data-elementor-lightbox-slideshow="all-0e28f6c"
-															data-elementor-lightbox-title="Amar &amp; April 4">
+															data-elementor-lightbox-title="Gangsar & Indah 14">
 															<div class="e-gallery-image elementor-gallery-item__image"
 																data-thumbnail="media/8-min.jpg"
 																data-width="1568" data-height="2352" alt></div>
@@ -1917,7 +1917,7 @@
 															href="media/7-min.jpg"
 															data-elementor-open-lightbox="yes"
 															data-elementor-lightbox-slideshow="all-0e28f6c"
-															data-elementor-lightbox-title="Amar &amp; April 4">
+															data-elementor-lightbox-title="Gangsar & Indah 15">
 															<div class="e-gallery-image elementor-gallery-item__image"
 																data-thumbnail="media/7-min.jpg"
 																data-width="1568" data-height="2352" alt></div>
@@ -1927,7 +1927,7 @@
 															href="media/16-min.jpg"
 															data-elementor-open-lightbox="yes"
 															data-elementor-lightbox-slideshow="all-0e28f6c"
-															data-elementor-lightbox-title="Amar &amp; April 4">
+															data-elementor-lightbox-title="Gangsar & Indah 16">
 															<div class="e-gallery-image elementor-gallery-item__image"
 																data-thumbnail="media/16-min.jpg"
 																data-width="1568" data-height="2352" alt></div>
@@ -1937,7 +1937,7 @@
 															href="media/15-min.jpg"
 															data-elementor-open-lightbox="yes"
 															data-elementor-lightbox-slideshow="all-0e28f6c"
-															data-elementor-lightbox-title="Amar &amp; April 4">
+															data-elementor-lightbox-title="Gangsar & Indah 17">
 															<div class="e-gallery-image elementor-gallery-item__image"
 																data-thumbnail="media/15-min.jpg"
 																data-width="1568" data-height="2352" alt></div>
@@ -1947,7 +1947,7 @@
 															href="media/23-min.jpg"
 															data-elementor-open-lightbox="yes"
 															data-elementor-lightbox-slideshow="all-0e28f6c"
-															data-elementor-lightbox-title="Amar &amp; April 4">
+															data-elementor-lightbox-title="Gangsar & Indah 18">
 															<div class="e-gallery-image elementor-gallery-item__image"
 																data-thumbnail="media/23-min.jpg"
 																data-width="1568" data-height="2352" alt></div>
