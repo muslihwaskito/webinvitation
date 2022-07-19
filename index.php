@@ -1,3 +1,15 @@
+<?php
+    require_once 'config.php';
+    
+    // Create connection
+    $mysql = new mysqli($servername, $username, $password, $database);
+    if ($mysql->connect_error) {
+		$die("Connection failed: " . $mysql->connect_error);
+	}
+
+    $query = mysqli_query($mysql, "SELECT * FROM guestbook ORDER BY id DESC");
+    $gusetbooks = mysqli_fetch_all($query, MYSQLI_ASSOC);
+?>
 <!DOCTYPE html>
 <html lang="en-US" xmlns="http://www.w3.org/1999/xhtml"
       xmlns:og="http://ogp.me/ns#"
@@ -2044,417 +2056,25 @@
 														</div>
 
 														<div class="guestbook-list">
-
-															<!-- <div class="user-guestbook">
+															<?php
+																foreach ($gusetbooks as $key => $value) {
+															?>
+															<div class="user-guestbook">
 																<div><img src="images/cropped-Logo-Fix.png"
 																		title="cropped-Logo-Fix.png"
 																		alt="cropped-Logo-Fix.png"></div>
 																<div class="guestbook">
-																	<a class="guestbook-name">bbmb</a><span
+																	<a class="guestbook-name"><?php echo $value['name'] ?></a><span
 																		class="wdp-confirm"><i
 																			class="fas fa-check-circle"></i>
-																		Hadir</span>
-																	<div class="guestbook-message">hhjg</div>
+																		<?php echo $value['confirm'] ?></span>
+																	<div class="guestbook-message"><?php echo $value['message'] ?></div>
 																</div>
 															</div>
-
-
-															<div class="user-guestbook">
-																<div><img src="images/cropped-Logo-Fix.png"
-																		title="cropped-Logo-Fix.png"
-																		alt="cropped-Logo-Fix.png"></div>
-																<div class="guestbook">
-																	<a class="guestbook-name">Sth</a><span
-																		class="wdp-confirm"><i
-																			class="fas fa-check-circle"></i> Akan
-																		Hadir</span>
-																	<div class="guestbook-message">Ok</div>
-																</div>
-															</div>
-
-
-															<div class="user-guestbook">
-																<div><img src="images/cropped-Logo-Fix.png"
-																		title="cropped-Logo-Fix.png"
-																		alt="cropped-Logo-Fix.png"></div>
-																<div class="guestbook">
-																	<a class="guestbook-name">Mantan 6 tahun mu</a><span
-																		class="wdp-confirm"><i
-																			class="fas fa-check-circle"></i> Tidak
-																		Hadir</span>
-																	<div class="guestbook-message">Wilujeng yah geulis ,
-																		Kadonya nyusul nanti di paketin
-																	</div>
-																</div>
-															</div>
-
-
-															<div class="user-guestbook">
-																<div><img src="images/cropped-Logo-Fix.png"
-																		title="cropped-Logo-Fix.png"
-																		alt="cropped-Logo-Fix.png"></div>
-																<div class="guestbook">
-																	<a class="guestbook-name">Anisa</a><span
-																		class="wdp-confirm"><i
-																			class="fas fa-check-circle"></i>
-																		Hadir</span>
-																	<div class="guestbook-message">Selamat</div>
-																</div>
-															</div>
-
-
-															<div class="user-guestbook">
-																<div><img src="images/cropped-Logo-Fix.png"
-																		title="cropped-Logo-Fix.png"
-																		alt="cropped-Logo-Fix.png"></div>
-																<div class="guestbook">
-																	<a class="guestbook-name">Fadli</a><span
-																		class="wdp-confirm"><i
-																			class="fas fa-check-circle"></i>
-																		Hadir</span>
-																	<div class="guestbook-message">Selamat ya</div>
-																</div>
-															</div>
-
-
-															<div class="user-guestbook">
-																<div><img src="images/cropped-Logo-Fix.png"
-																		title="cropped-Logo-Fix.png"
-																		alt="cropped-Logo-Fix.png"></div>
-																<div class="guestbook">
-																	<a class="guestbook-name">abdul</a><span
-																		class="wdp-confirm"><i
-																			class="fas fa-check-circle"></i>
-																		Hadir</span>
-																	<div class="guestbook-message">sa</div>
-																</div>
-															</div>
-
-
-															<div class="user-guestbook">
-																<div><img src="images/cropped-Logo-Fix.png"
-																		title="cropped-Logo-Fix.png"
-																		alt="cropped-Logo-Fix.png"></div>
-																<div class="guestbook">
-																	<a class="guestbook-name">abdul</a><span
-																		class="wdp-confirm"><i
-																			class="fas fa-check-circle"></i> Akan
-																		Hadir</span>
-																	<div class="guestbook-message">yaaaa</div>
-																</div>
-															</div>
-
-
-															<div class="user-guestbook">
-																<div><img src="images/cropped-Logo-Fix.png"
-																		title="cropped-Logo-Fix.png"
-																		alt="cropped-Logo-Fix.png"></div>
-																<div class="guestbook">
-																	<a class="guestbook-name">abdul</a><span
-																		class="wdp-confirm"><i
-																			class="fas fa-check-circle"></i> Akan
-																		Hadir</span>
-																	<div class="guestbook-message">ya</div>
-																</div>
-															</div>
-
-
-															<div class="user-guestbook">
-																<div><img src="images/cropped-Logo-Fix.png"
-																		title="cropped-Logo-Fix.png"
-																		alt="cropped-Logo-Fix.png"></div>
-																<div class="guestbook">
-																	<a class="guestbook-name">abdul</a><span
-																		class="wdp-confirm"><i
-																			class="fas fa-check-circle"></i>
-																		Hadir</span>
-																	<div class="guestbook-message">ya</div>
-																</div>
-															</div>
-
-
-															<div class="user-guestbook">
-																<div><img src="images/cropped-Logo-Fix.png"
-																		title="cropped-Logo-Fix.png"
-																		alt="cropped-Logo-Fix.png"></div>
-																<div class="guestbook">
-																	<a class="guestbook-name">abdul</a><span
-																		class="wdp-confirm"><i
-																			class="fas fa-check-circle"></i>
-																		Hadir</span>
-																	<div class="guestbook-message">ya</div>
-																</div>
-															</div>
-
-
-															<div class="user-guestbook">
-																<div><img src="images/cropped-Logo-Fix.png"
-																		title="cropped-Logo-Fix.png"
-																		alt="cropped-Logo-Fix.png"></div>
-																<div class="guestbook">
-																	<a class="guestbook-name">abdul</a><span
-																		class="wdp-confirm"><i
-																			class="fas fa-check-circle"></i>
-																		Hadir</span>
-																	<div class="guestbook-message">ya</div>
-																</div>
-															</div>
-
-
-															<div class="user-guestbook">
-																<div><img src="images/cropped-Logo-Fix.png"
-																		title="cropped-Logo-Fix.png"
-																		alt="cropped-Logo-Fix.png"></div>
-																<div class="guestbook">
-																	<a class="guestbook-name">u</a><span
-																		class="wdp-confirm"><i
-																			class="fas fa-check-circle"></i>
-																		Hadir</span>
-																	<div class="guestbook-message">t</div>
-																</div>
-															</div>
-
-
-															<div class="user-guestbook">
-																<div><img src="images/cropped-Logo-Fix.png"
-																		title="cropped-Logo-Fix.png"
-																		alt="cropped-Logo-Fix.png"></div>
-																<div class="guestbook">
-																	<a class="guestbook-name">u</a><span
-																		class="wdp-confirm"><i
-																			class="fas fa-check-circle"></i>
-																		Hadir</span>
-																	<div class="guestbook-message">t</div>
-																</div>
-															</div>
-
-
-															<div class="user-guestbook">
-																<div><img src="images/cropped-Logo-Fix.png"
-																		title="cropped-Logo-Fix.png"
-																		alt="cropped-Logo-Fix.png"></div>
-																<div class="guestbook">
-																	<a class="guestbook-name">u</a><span
-																		class="wdp-confirm"><i
-																			class="fas fa-check-circle"></i>
-																		Hadir</span>
-																	<div class="guestbook-message">t</div>
-																</div>
-															</div>
-
-
-															<div class="user-guestbook">
-																<div><img src="images/cropped-Logo-Fix.png"
-																		title="cropped-Logo-Fix.png"
-																		alt="cropped-Logo-Fix.png"></div>
-																<div class="guestbook">
-																	<a class="guestbook-name">Twyaya</a><span
-																		class="wdp-confirm"><i
-																			class="fas fa-check-circle"></i> Akan
-																		Hadir</span>
-																	<div class="guestbook-message">Cib</div>
-																</div>
-															</div>
-
-
-															<div class="user-guestbook">
-																<div><img src="images/cropped-Logo-Fix.png"
-																		title="cropped-Logo-Fix.png"
-																		alt="cropped-Logo-Fix.png"></div>
-																<div class="guestbook">
-																	<a class="guestbook-name">Ffff</a><span
-																		class="wdp-confirm"><i
-																			class="fas fa-check-circle"></i> Tidak
-																		Hadir</span>
-																	<div class="guestbook-message">Ccghh</div>
-																</div>
-															</div>
-
-
-															<div class="user-guestbook">
-																<div><img src="images/cropped-Logo-Fix.png"
-																		title="cropped-Logo-Fix.png"
-																		alt="cropped-Logo-Fix.png"></div>
-																<div class="guestbook">
-																	<a class="guestbook-name">a</a><span
-																		class="wdp-confirm"><i
-																			class="fas fa-check-circle"></i>
-																		Hadir</span>
-																	<div class="guestbook-message">a</div>
-																</div>
-															</div>
-
-
-															<div class="user-guestbook">
-																<div><img src="images/cropped-Logo-Fix.png"
-																		title="cropped-Logo-Fix.png"
-																		alt="cropped-Logo-Fix.png"></div>
-																<div class="guestbook">
-																	<a class="guestbook-name">s</a><span
-																		class="wdp-confirm"><i
-																			class="fas fa-check-circle"></i>
-																		Hadir</span>
-																	<div class="guestbook-message">s</div>
-																</div>
-															</div>
-
-
-															<div class="user-guestbook">
-																<div><img src="images/cropped-Logo-Fix.png"
-																		title="cropped-Logo-Fix.png"
-																		alt="cropped-Logo-Fix.png"></div>
-																<div class="guestbook">
-																	<a class="guestbook-name">a</a><span
-																		class="wdp-confirm"><i
-																			class="fas fa-check-circle"></i>
-																		Hadir</span>
-																	<div class="guestbook-message">a</div>
-																</div>
-															</div>
-
-
-															<div class="user-guestbook">
-																<div><img src="images/cropped-Logo-Fix.png"
-																		title="cropped-Logo-Fix.png"
-																		alt="cropped-Logo-Fix.png"></div>
-																<div class="guestbook">
-																	<a class="guestbook-name">a</a><span
-																		class="wdp-confirm"><i
-																			class="fas fa-check-circle"></i>
-																		Hadir</span>
-																	<div class="guestbook-message">a</div>
-																</div>
-															</div>
-
-
-															<div class="user-guestbook">
-																<div><img src="images/cropped-Logo-Fix.png"
-																		title="cropped-Logo-Fix.png"
-																		alt="cropped-Logo-Fix.png"></div>
-																<div class="guestbook">
-																	<a class="guestbook-name">Mamm</a><span
-																		class="wdp-confirm"><i
-																			class="fas fa-check-circle"></i>
-																		Hadir</span>
-																	<div class="guestbook-message">Ghjh</div>
-																</div>
-															</div>
-
-
-															<div class="user-guestbook">
-																<div><img src="images/cropped-Logo-Fix.png"
-																		title="cropped-Logo-Fix.png"
-																		alt="cropped-Logo-Fix.png"></div>
-																<div class="guestbook">
-																	<a class="guestbook-name">Rioo</a><span
-																		class="wdp-confirm"><i
-																			class="fas fa-check-circle"></i>
-																		Hadir</span>
-																	<div class="guestbook-message">Sjaja</div>
-																</div>
-															</div>
-
-
-															<div class="user-guestbook">
-																<div><img src="images/cropped-Logo-Fix.png"
-																		title="cropped-Logo-Fix.png"
-																		alt="cropped-Logo-Fix.png"></div>
-																<div class="guestbook">
-																	<a class="guestbook-name">Y</a><span
-																		class="wdp-confirm"><i
-																			class="fas fa-check-circle"></i> Akan
-																		Hadir</span>
-																	<div class="guestbook-message">Selmat</div>
-																</div>
-															</div>
-
-
-															<div class="user-guestbook">
-																<div><img src="images/cropped-Logo-Fix.png"
-																		title="cropped-Logo-Fix.png"
-																		alt="cropped-Logo-Fix.png"></div>
-																<div class="guestbook">
-																	<a class="guestbook-name">Roshi</a><span
-																		class="wdp-confirm"><i
-																			class="fas fa-check-circle"></i>
-																		Hadir</span>
-																	<div class="guestbook-message">Happy wedding kaak🤗
-																	</div>
-																</div>
-															</div>
-
-
-															<div class="user-guestbook">
-																<div><img src="images/cropped-Logo-Fix.png"
-																		title="cropped-Logo-Fix.png"
-																		alt="cropped-Logo-Fix.png"></div>
-																<div class="guestbook">
-																	<a class="guestbook-name">Noval</a><span
-																		class="wdp-confirm"><i
-																			class="fas fa-check-circle"></i>
-																		Hadir</span>
-																	<div class="guestbook-message">Mabruk ya reekk</div>
-																</div>
-															</div>
-
-
-															<div class="user-guestbook">
-																<div><img src="images/cropped-Logo-Fix.png"
-																		title="cropped-Logo-Fix.png"
-																		alt="cropped-Logo-Fix.png"></div>
-																<div class="guestbook">
-																	<a class="guestbook-name">Salma </a><span
-																		class="wdp-confirm"><i
-																			class="fas fa-check-circle"></i>
-																		Hadir</span>
-																	<div class="guestbook-message">Samawa kakakkuuu😍
-																	</div>
-																</div>
-															</div>
-
-
-															<div class="user-guestbook">
-																<div><img src="images/cropped-Logo-Fix.png"
-																		title="cropped-Logo-Fix.png"
-																		alt="cropped-Logo-Fix.png"></div>
-																<div class="guestbook">
-																	<a class="guestbook-name">Inchin </a><span
-																		class="wdp-confirm"><i
-																			class="fas fa-check-circle"></i> Akan
-																		Hadir</span>
-																	<div class="guestbook-message">Akhirnya 🥰</div>
-																</div>
-															</div>
-
-
-															<div class="user-guestbook">
-																<div><img src="images/cropped-Logo-Fix.png"
-																		title="cropped-Logo-Fix.png"
-																		alt="cropped-Logo-Fix.png"></div>
-																<div class="guestbook">
-																	<a class="guestbook-name">Ulfi Mufida</a><span
-																		class="wdp-confirm"><i
-																			class="fas fa-check-circle"></i>
-																		Hadir</span>
-																	<div class="guestbook-message">Barakallah</div>
-																</div>
-															</div>
-
-
-															<div class="user-guestbook">
-																<div><img src="images/cropped-Logo-Fix.png"
-																		title="cropped-Logo-Fix.png"
-																		alt="cropped-Logo-Fix.png"></div>
-																<div class="guestbook">
-																	<a class="guestbook-name">Haris</a><span
-																		class="wdp-confirm"><i
-																			class="fas fa-check-circle"></i>
-																		Hadir</span>
-																	<div class="guestbook-message">Samawa Bray</div>
-																</div>
-															</div>
-
-														</div> -->
+															<?php
+																}
+															?>
+														</div>
 													</div>
 
 												</div>
@@ -3435,7 +3055,7 @@
 	<script type="text/javascript" id="weddingpress-wdp-js-extra">
 		/* <![CDATA[ */
 		var cevar = {
-			"ajax_url": "https:\/\/websiteinvitation.com\/wp-admin\/admin-ajax.php",
+			"ajax_url": "admin-ajax.php",
 			"plugin_url": "https:\/\/websiteinvitation.com\/wp-content\/plugins\/weddingpress\/"
 		};
 		/* ]]> */
